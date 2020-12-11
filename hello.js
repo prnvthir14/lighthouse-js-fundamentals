@@ -1,11 +1,10 @@
 //start at 12:37
-const sayHello = function (name) {
+const sayHelloToConsole  = function (name) {
   console.log("Hello, " + name);
 }
+sayHelloToConsole('John'); 
 
-
-sayHello("A");
-sayHello("B");
-sayHello("C");
-
-
+const returnSayHello  = function (name) {
+  return "Hello, " + name;
+}
+const greeting = console.log(returnSayHello('John'));
